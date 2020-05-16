@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+}
+.bg {
+  background-image: url(/1x/Asset\ 43.png);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.logo {
+  padding: 5% 0 0 5%;
+}
+
+.textwhite {
+  color: white;
+}
+
+.bigtext{
+  letter-spacing: 40px;
+  font-size: 93.5;
+  font-weight: 750;
+}
+
+.line {
+  height: 20px;
+  width: 100%;
+  background-color: white;
+}
+
+.burger {
+  position: absolute;  
+}
+
+.indenttext {
+  padding: 50px 0 0 90px;
+  font-size: 19px;
+  color: #afafaf;
+}
+
+.content {
+  margin-top: 50px;
+}
