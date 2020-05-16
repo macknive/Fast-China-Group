@@ -1,7 +1,7 @@
 body, html {
-  height: 100%;
+
 }
-.bg {
+body {
   background-image: url(/1x/Asset\ 43.png);
   height: 100%;
   background-position: center;
@@ -10,6 +10,7 @@ body, html {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  margin-bottom: 300px;
 }
 
 .logo {
@@ -42,6 +43,6 @@ body, html {
   color: #afafaf;
 }
 
-.content {
-  margin-top: 50px;
+.heading {
+  margin-bottom: 1100px;
 }
