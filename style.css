@@ -8,11 +8,14 @@ body {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 300px;
-  
 }
 
 .logo {
-  padding: 5% 0 0 5%;
+  padding: 3% 0 0 5%;
+}
+
+.logos {
+  background-color: white;
 }
 
 .textwhite {
@@ -31,6 +34,18 @@ body {
   background-color: white;
 }
 
+.leftpart {
+  padding-left:9%; 
+}
+
+.quote {
+  margin-left: -25px;
+}
+
+.rightpart {
+  margin-top: -150px;
+}
+
 .burger {
   position: absolute;  
 }
@@ -41,10 +56,6 @@ body {
   color: #afafaf;
 }
 
-.heading {
-  margin-bottom: 800px;
-}
-
 .container {
   padding: 20px;
   max-width: 100%;
@@ -53,3 +64,52 @@ body {
 .colpad {
   padding-right: 70px;
 }
+
+.main {
+  margin-top: 600px;
+  margin-bottom: 150px;
+}
+
+.darkbg {
+  background-color: #212121;
+  color: white;
+  padding: 0 30%;
+}
+
+.culture {
+  background-color: #212121;
+  padding: 0 15%;
+}
+
+.dark {
+  background-color: #212121;
+}
+
+input[type=text], .textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0;
+}
+
+.svg {
+  height: 50px;
+  width: 50px;
+}
+
+.svgl {
+  height: 80px;
+  width: 80px;
+}
+
+.svgs {
+  height: 24px;
+  width: 24px;
+}
+
+.footer {
+ padding: 0 25%;
+}
+
+.footersocial {
+  padding: 0 40%;
+ }
