@@ -28,10 +28,44 @@ body {
   font-weight: 750;
 }
 
-.line {
-  height: 20px;
-  width: 100%;
-  background-color: white;
+.dot {
+  height: 17px;
+  width: 17px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 2%;
+  left: -6%;
+  z-index: 0;
+}
+
+.redline {
+  width: 1px;
+  border: 1px solid red;
+  height: 580px;
+  position: absolute;
+  top: 5%;
+  left: 78%;
+  z-index: 0;
+}
+
+.redlinemain {
+  width: 1px;
+  border: 1px solid red;
+  height: 1400px;
+  position: absolute;
+  top: 130%;
+  left: 13%;
+  z-index: 0;
+}
+
+.smallred {
+  width: 1px;
+  border: 1px solid red;
+  height: 70px;
+  position: absolute;
+  left: 7%;
+  top: 45%;
 }
 
 .leftpart {
@@ -47,7 +81,11 @@ body {
 }
 
 .burger {
-  position: absolute;  
+  display: none;
+  position: fixed;
+  right: 50px;
+  top: 50px;
+  z-index: 9999;
 }
 
 .indenttext {
@@ -66,7 +104,7 @@ body {
 }
 
 .main {
-  margin-top: 600px;
+  margin-top: 30%;
   margin-bottom: 150px;
 }
 
@@ -113,3 +151,28 @@ input[type=text], .textarea {
 .footersocial {
   padding: 0 40%;
  }
+
+@media only screen and (max-width: 1563px) {
+  .leftpart, .rightpart {
+    display:none;
+  }
+  .burger {
+    display: block;
+  }
+  .smallred {
+    top: 70%;
+    left: 6%;
+  }
+  .redlinemain, .redline, .dot {
+    display: none;
+  }
+  .logos {
+    background-color: unset;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main {
+    margin-top: 100%;
+  }
+}
