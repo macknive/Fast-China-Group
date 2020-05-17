@@ -7,7 +7,23 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  margin-bottom: 300px;
+  margin-bottom: 15%;
+}
+
+.blankspace {
+
+  width: 500px;
+  height: 600px;
+  display: block;
+
+}
+
+.blankspacesp {
+ 
+  width: 500px;
+  height: 1100px;
+  display: none;
+
 }
 
 .logo {
@@ -46,7 +62,7 @@ body {
   position: absolute;
   top: 5%;
   left: 78%;
-  z-index: 0;
+  z-index: -1;
 }
 
 .redlinemain {
@@ -56,7 +72,7 @@ body {
   position: absolute;
   top: 130%;
   left: 13%;
-  z-index: 0;
+  z-index: -1;
 }
 
 .smallred {
@@ -104,8 +120,14 @@ body {
 }
 
 .main {
-  margin-top: 30%;
   margin-bottom: 150px;
+  background-image: url(/1x/dragonwhite.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 .darkbg {
@@ -120,7 +142,10 @@ body {
 }
 
 .dark {
+  background-image: url(/1x/dragonred.png);
   background-color: #212121;
+  background-position: center;
+  background-repeat: repeat;
 }
 
 input[type=text], .textarea {
@@ -171,8 +196,11 @@ input[type=text], .textarea {
   }
 }
 
-@media only screen and (max-width: 1024px) {
-  .main {
-    margin-top: 100%;
+@media only screen and (max-width: 768px) {
+  .blankspace {
+    
+  }
+  .blankspacesp {
+    display: block;
   }
 }
