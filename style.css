@@ -12,7 +12,7 @@ body {
 
 .blankspace {
   width: 500px;
-  height: 600px;
+  height: 500px;
   display: block;
 }
 
@@ -26,7 +26,7 @@ body {
   padding: 3% 0 0 5%;
 }
 
-.logos {
+.whitebg {
   background-color: white;
 }
 
@@ -66,7 +66,7 @@ body {
   border: 1px solid red;
   height: 1400px;
   position: absolute;
-  top: 130%;
+  top: 137%;
   left: 13%;
   z-index: -1;
 }
@@ -137,6 +137,10 @@ body {
   padding: 0 15%;
 }
 
+.overlap {
+  margin-top: -60px;
+}
+
 .dark {
   background-image: url(/1x/dragonred.png);
   background-color: #212121;
@@ -177,6 +181,7 @@ input[type=text], .textarea {
   .redline {
     height: 600px;
   }
+}
 
 @media only screen and (max-width: 1563px) {
   .leftpart, .rightpart {
@@ -192,13 +197,9 @@ input[type=text], .textarea {
   .redlinemain, .redline, .dot {
     display: none;
   }
-  .logos {
+  .whitebg {
     background-color: unset;
   }
-}
-
-.overlap {
-  margin-top: -150px;
 }
 
 @media only screen and (max-width: 980px) {
@@ -212,7 +213,7 @@ input[type=text], .textarea {
     padding: 5px;
   }
   .overlap {
-    margin-top: 0;
+    margin-top: 50px;
   }
   .smallred {
     height: 324px;
@@ -234,6 +235,22 @@ input[type=text], .textarea {
     padding: 12px 20px;
     margin: 10px 0;
     line-height: 58px;
+    font-size: 40px;
+  }
+  .logos, .imagel {
+    min-height: 500px;
+  }
+  .svgs, .svg, .svgl {
+    height: 150px;
+    width: 150px;
+  }
+  h1, h2, h3, h4 {
+    font-size: 40px;
+  }
+  .culture {
+    padding: unset;
+  }
+  .logocontain {
+    text-align: center;
   }
 }
-
