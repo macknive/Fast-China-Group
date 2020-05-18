@@ -10,6 +10,10 @@ body {
   margin-bottom: 15%;
 }
 
+.headlogo {
+  display: none;
+}
+
 .blankspace {
   width: 500px;
   height: 600px;
@@ -26,6 +30,14 @@ body {
   padding: 3% 0 0 5%;
 }
 
+.logos {
+  max-height: 250px;
+}
+
+.imagel {
+  max-height: 300px;
+}
+
 .whitebg {
   background-color: white;
 }
@@ -40,7 +52,7 @@ body {
   font-weight: 750;
 }
 
-.dot {
+/*.dot {
   height: 17px;
   width: 17px;
   background-color: red;
@@ -70,7 +82,7 @@ body {
   left: 13%;
   z-index: -1;
 }
-
+*/
 .smallred {
   width: 1px;
   border: 1px solid red;
@@ -252,5 +264,11 @@ input[type=text], .textarea {
   }
   .logocontain {
     text-align: center;
+  }
+  .logo {
+    display: none;
+  }
+  .headlogo {
+    display: block;
   }
 }
