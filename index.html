@@ -475,6 +475,10 @@ function redlineFunction() {
 </script>
 
 <script type="text/javascript">
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+ 	// some code..
+	}else
+	{
 	options = {
 "cursorOuter": "circle-basic",
 "hoverEffect": "circle-move",
@@ -484,6 +488,7 @@ function redlineFunction() {
 "outerHeight": 30
 		};
 	magicMouse(options);
+	}
 </script>
 
 <script>
