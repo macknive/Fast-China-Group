@@ -1,0 +1,35 @@
+h1, .h1 {
+	font-family: $Montserrat;
+	font-size: rem(32px);
+	line-height: rem(42px);
+	font-weight: $fw-700;
+
+	@media (min-width: $width-xs) {
+		font-size: rem(39px);
+		line-height: rem(49px);
+	}
+	
+	&.text-normal {
+		text-transform: capitalize;
+	}
+	&.text-red {
+		color: $red;
+	}
+}
+h2, .h2 {
+	font-size: rem(32px);
+	font-weight: $fw-700;
+	margin-bottom: rem(10px);
+	line-height: rem(42px);
+	font-family: $Montserrat;
+}
+h3 {
+	font-size: rem(20px);
+	font-weight: $fw-700;
+	font-family: $Montserrat;
+}
+h4 {
+	font-size: rem(18px);
+	font-weight: $fw-700;
+	font-family: $Montserrat;
+}

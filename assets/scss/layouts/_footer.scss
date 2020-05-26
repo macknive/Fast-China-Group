@@ -1,0 +1,27 @@
+footer {
+  background-color: #212121;
+  position: relative;
+  z-index: 700;
+}
+
+.svgpicstiny {
+  max-height: 20px;
+}
+
+.logofooter {
+  max-height: 150px;
+  margin-bottom: 80px;
+}
+
+.svgfooter {
+  max-height: 250px;
+  margin-top: -150px;
+}
+
+@media only screen and (min-width: $width-md) {
+  .logofooter {
+    max-height: 200px;
+    margin-bottom: 120px;
+  }
+}
+

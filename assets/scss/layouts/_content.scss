@@ -1,0 +1,193 @@
+
+.logocontent {
+  max-height: 120px;
+  max-width: 120px;
+  z-index: 600;
+}
+
+.placeholderdiv {
+  width: 230px;
+  height: 280px;
+  margin-left: 22%;
+}
+
+
+
+#firstcontent {
+  background-image: url(/assets/images/dragonwhite.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  z-index: 600;
+  position: relative;
+}
+
+
+.headertext {
+  font-family: $Gilroyextrabold;
+  font-size: 18px;
+  line-height:18px;
+}
+
+.second-content {
+  background-image: url(/assets/images/dragonred.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 200px;
+  position: relative;
+  background-color: #212121;
+  z-index: 600;
+}
+
+.svgpicceo {
+  max-height: 150px;
+}
+
+.redline {
+  height: 1px;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.svgpicsmall {
+  max-height: 40px;
+}
+
+input[type=text], .textarea {
+  width: 100%;
+  padding: 5px 8px;
+  margin: 5px;
+  line-height: 30px;
+  font-size: 12px;
+}
+
+button {
+  border: none;
+}
+
+.ceooffset {
+  margin-top: -110px;
+}
+
+.culturecontainer {
+  padding: 0 15%;
+}
+
+@media only screen and (min-width: $width-xxs) {
+  .secondcontainer-offset {
+    margin-top: -160px;
+  }
+}
+
+@media only screen and (min-width: $width-xs) {
+  .placeholderdiv {
+    width: 345px;
+  }
+  .secondcontainer-offset {
+    margin-top: -100px;
+  }
+  .logocontent {
+    background-color: white;
+    border-radius: 110px;
+  }
+
+}
+
+@media only screen and (min-width: $width-sm) {
+  .placeholderdiv {
+    width: 409px;
+    height: 400px;
+  }
+  .secondcontainer-offset {
+    margin-top: -150px;
+  }
+
+
+}
+@media only screen and (min-width: $width-md) {
+  .placeholderdiv {
+    width: 549px;
+    height: 470px;
+  }
+  .secondcontainer-offset {
+    margin-top: 0px;
+  }
+  .headertext {
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 12px;
+  }
+
+  .logocontent {
+    max-height: 170px;
+    max-width: 170px;
+    margin-left: -20%
+  }
+  .secondcontainer {
+    max-width: 720px;
+  }
+  
+  .svgpicceo {
+    max-height: 300px;
+  }
+  .ceooffset {
+    margin-top: -175px;
+  }
+  input[type=text], .textarea {
+    width: 100%;
+    padding: 8px 12px;
+    margin: 10px;
+    line-height: 34px;
+    font-size: 14px;
+  }
+
+}
+
+@media only screen and (min-width: $width-lg) {
+  .placeholderdiv {
+    width: 718px;
+    height: 585px;
+  }
+
+  .logocontent {
+    max-height: unset;
+    max-width: unset;
+    margin-left: 0;
+  }
+
+}
+@media only screen and (min-width: $width-xl) {
+
+
+}
+
+@media only screen and (min-width: $width-xxl) {
+  .logocontent {
+    margin-left: 30%;
+  }
+  .cultureoffset {
+    margin-top: -130px;
+  }
+  .placeholderdiv {
+    margin-left: 5%;
+  }
+}
+
+@media only screen and (min-width: 1570px) {
+  .logocontent {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 1770px) {
+  .logocontent {
+    margin-left: -15%;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  .logocontent {
+    margin-left: -20%;
+  }
+}

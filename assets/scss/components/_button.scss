@@ -1,0 +1,78 @@
+.btn {
+	text-align: center;
+	border: none;
+	border-radius: rem(5px);
+	vertical-align: top;
+	color: $white;
+	padding: rem(0 25px);
+
+	&-ghost {
+		background: none;
+		border: rem(2px) solid $white;
+		border-radius: rem(5px);
+		height: rem(40px);
+		line-height: rem(37px);
+		text-transform: uppercase;
+		font-weight: $fw-700;
+		font-size: rem(14px);
+
+		&:hover {
+			background: $black-1;
+			color: $white;
+			border: rem(2px) solid $black-1;
+		}
+	}
+
+	&-large {
+		height: rem(44px);
+		line-height: rem(44px);
+	}
+
+	&-xl {
+		height: rem(76px);
+		line-height: rem(76px);
+		font-size: rem(19px);
+	}
+
+	&-gradient-red {
+		background-image: linear-gradient(to right, #c62c32, #ff0000 100%, #ff0000);
+		height: rem(62px);
+		line-height: rem(62px);
+		letter-spacing: rem(1.58px);
+		font-weight: $fw-600;
+		text-transform: uppercase;
+		width: 100%;
+		border-radius: 0;
+		font-size: rem(16px);
+
+		&:hover {
+			background: $black-1;
+			color: $white;
+		}
+		@media (min-width: $width-md) {
+			max-width: rem(300px);
+		
+		}
+	}
+
+	&-gradient-red-sp {
+		background-image: linear-gradient(to right, #c62c32, #ff0000 100%, #ff0000);
+		height: rem(29.8px);
+		text-transform: uppercase;
+		width: rem(144px);
+		border-radius: 0;
+		font-size: rem(8px);
+		font-family: $Gilroy;
+		font-weight: 800;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 0.63;
+		letter-spacing: 0.8px;
+		color: #ffffff;
+
+		&:hover {
+			background: $black-1;
+			color: $white;
+		}
+	}
+}

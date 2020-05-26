@@ -1,0 +1,43 @@
+//default color
+$white: #fff;
+$black: #000;
+
+//site colors
+$red: #C62C32;
+$red-1: #A50A0A;
+$red-2: #D74341;
+$black-1: #070C10;
+$dirt-white: #EAEAEA;
+
+$light-grey: #939393;
+$grey: #565656;
+$dark-grey: #1A1A1A;
+$dark-gre-1: #212121;
+$lighter-grey: #AFAFAF;
+
+//Base font for REM conversion
+$rem-baseline: 12px !default;
+
+
+//font-family
+$Montserrat: 'Montserrat', sans-serif;
+$Merriweather: 'Merriweather', serif;
+$Gilroy: 'gilroy';
+$Gilroyextrabold: 'gilroyextrabold';
+
+//font-weight_style
+$fw-400: 400;
+$fw-500: 500;
+$fw-600: 600;
+$fw-700: 700;
+$fw-900: 900;
+
+
+//Screen sizes for media queries
+$width-xxl: 1440px;
+$width-xl: 1200px;
+$width-lg: 992px;
+$width-md: 768px;
+$width-sm: 576px;
+$width-xs: 480px;
+$width-xxs: 320px;
